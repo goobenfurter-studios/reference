@@ -1,5 +1,6 @@
 = Göbenfurter Dev Starter Pack
 
+// tag::no-title[]
 == Version Control
 
 As you can probably already tell,
@@ -38,3 +39,4 @@ Göbenfurter uses https://logseq.com/[LogSeq] to organize documentation.
 The app is not necessary to view the files,
 as they are stored in Markdown files,
 but the viewing experience would be improved with the app.
+// end::no-title[]

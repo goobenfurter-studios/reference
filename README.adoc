@@ -1,0 +1,3 @@
+= Welcome to Göbenfurter Studios
+
+include::starter-pack.adoc[tag=no-title]
