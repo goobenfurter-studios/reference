@@ -1,0 +1,40 @@
+= Göbenfurter Dev Starter Pack
+
+== Version Control
+
+As you can probably already tell,
+Göbenfurter Studios uses git for source control and GitHub as its primary hosting provider.
+Here are a few resources to help you learn how to use git / GitHub:
+
+* https://education.github.com/git-cheat-sheet-education.pdf[git cheatsheet]
+* https://docs.github.com/en/authentication/connecting-to-github-with-ssh[github + ssh] with ED25519 as the preferred algorithm
+
+== Repo Structure
+
+Each project repo serves as a (mostly) standalone entry point for the project.
+It contains not only the codebase
+but also any documentation about the project and assets for the project,
+which are stored in a submodule to keep the histories separate and protected.
+The structure is as follows:
+
+* codebase (repo)
+** notes (submodule)
+** assets (submodule)
+
+Here's how to get a local copy, complete with the submodules:
+[source]
+----
+git clone --recurse-submodules <repo url>
+----
+
+==  Editor/IDE
+
+We recommend https://code.visualstudio.com/[VSCode],
+but use whatever you like.
+
+== Notetaking Software
+
+Göbenfurter uses https://logseq.com/[LogSeq] to organize documentation.
+The app is not necessary to view the files,
+as they are stored in Markdown files,
+but the viewing experience would be improved with the app.
